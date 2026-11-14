@@ -6,21 +6,37 @@ A newspaper-front-page image summing up the world's news of Friday
 ## Stories in the image
 
 - **Hero: U.S. flights grounded** — the FAA ordered a nationwide ground
-  stop after a communications failure; thousands of flights cancelled,
-  the second nationwide stop since 9/11.
+  stop after a communications failure; flights were halted for about
+  four hours and nearly 7,000 flights were delayed or cancelled, the
+  longest nationwide stop since 9/11.
 - **Senate summons Huang & Lutnick** — the US Senate Banking Committee
-  summoned ex-Nvidia CEO Jensen Huang and Commerce Secretary Howard
-  Lutnick.
-- **Zelensky meets US envoys** — President Zelensky met US envoys
-  Witkoff and Kushner, with Europe brought into the peace talks.
-- **Drone hits Russian warship** — a Ukrainian drone hit a Russian
-  warship in the Gulf of Finland.
-- **Iran claims strike on US radar** — Iran said it struck a US radar
-  site in Bahrain.
-- **FBI: N. Korea $400m crypto hack** — the FBI warned North Korean
-  hackers stole $400m in crypto through fake video calls.
-- **Footer:** Qatar and Turkey signed a defence pact; Harry Kane broke
-  England's caps record; US deportations hit a record 483,200 in 2026.
+  summoned former Nvidia chief executive Jensen Huang (who resigned on
+  12 November) and Commerce Secretary Howard Lutnick to testify in
+  December over Nvidia chip exports to China.
+- **Europe to join Ukraine peace talks** — President Zelensky met US
+  envoys Witkoff and Kushner in Dublin; the envoys said European
+  partners would join the next round of talks, and a prisoner exchange,
+  the largest of the war, was agreed.
+- **Drone hits Russian warship** — Ukrainian drones hit the Russian
+  missile corvette Naro-Fominsk in the Gulf of Finland, the first such
+  strike in the Baltic.
+- **Qatar-Turkey defence pact** — Turkey and Qatar signed a mutual
+  defence agreement in Istanbul on 13 November.
+- **Microsoft 365 down worldwide** — the global Microsoft 365 outage
+  (Outlook, Teams, Copilot) entered its second day.
+- **Footer:** Iran claimed a strike on a US radar site in Bahrain
+  (the US military said it shot down two Iranian drones); the FBI said
+  North Korean hackers stole $400m in crypto through the fake
+  video-call "FaceStealer" scam; Harry Kane won a record 126th England
+  cap; ICE deportations hit a record 483,200 in fiscal 2026.
+
+## How it was made
+
+The front page was generated as one image, then a single caption was
+corrected for faithfulness: the generated caption read "EUROPE JOINS
+UKRAINE PEACE TALKS", but Moscow had not confirmed the European role,
+so the caption box was repainted with "EUROPE TO JOIN UKRAINE PEACE
+TALKS" in a matching condensed bold face. Nothing else was altered.
 
 ## How it runs
 
@@ -32,4 +48,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 The output is a 1024x1024 JPEG (named `entry.png`, as the rules allow),
-449,504 bytes (under the 1 MiB limit), and byte-identical on every run.
+390,803 bytes (under the 1 MiB limit), and byte-identical on every run.
