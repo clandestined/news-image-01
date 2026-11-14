@@ -35,13 +35,14 @@ A newspaper-front-page image summing up the world's news of Friday
 
 The front page was generated as one image, then one detail was
 corrected for faithfulness: the generated departures board repeated
-the same six flight rows twice, so the board was repainted with
-twelve distinct delayed flights in a matching gold mono face.
-Nothing else was altered. The generation already carried the
-corrected hero figure (more than 11,000 flights delayed or
-cancelled, per FlightAware via Reuters), a populated Senate hearing
-room, and a sharp-cornered hero banner — the three points where the
-previous version was weakest.
+the same few garbled rows, so the board was repainted with twelve
+distinct delayed flights in a matching gold mono face, with
+destinations corrected to the flights' real routes (BA177 to New
+York, EK215 to Los Angeles, SQ318 and QF9 to London). Nothing else
+was altered. This version also fixes the three points where the
+previous version was weakest: the hero sub-headline now fits on one
+line, nobody in the Europe panel looks at the camera, and the footer
+is two lines in larger type.
 
 ## How it runs
 
@@ -53,4 +54,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 The output is a 1024x1024 JPEG (named `entry.png`, as the rules allow),
-400,163 bytes (under the 1 MiB limit), and byte-identical on every run.
+372,208 bytes (under the 1 MiB limit), and byte-identical on every run.

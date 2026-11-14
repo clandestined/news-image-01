@@ -9,7 +9,9 @@ of Finland, the Qatar-Turkey defence pact and the worldwide Microsoft
 365 outage, plus a footer strip with Iran's claimed strike on a US
 radar site in Bahrain, the FBI's $400m North Korea crypto-scam
 warning, Kane's England caps record and the record US deportation
-figure.
+figure. The departures board in the hero photo was repainted with
+twelve distinct delayed flights (destinations matched to the flights'
+real routes); the hero deck fits on one line and the footer on two.
 """
 
 import os
