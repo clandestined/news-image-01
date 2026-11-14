@@ -36,30 +36,27 @@ A newspaper-front-page image summing up the world's news of Friday
 
 ## How it was made
 
-The front page was generated as one image, then details were
+The front page was generated as one image, then one detail was
 corrected for faithfulness by surgical repainting, with nothing else
-altered. First, the generated departures board repeated the same few
-garbled rows, so the board was repainted with twelve distinct flights
-in a matching gold mono face, with destinations corrected to
-the flights' real routes (BA177 to New York, EK215 to Los Angeles,
-SQ318 and QF9 to London). Second, the Europe panel's caption read
-"EUROPE TO JOIN UKRAINE PEACE TALKS" as settled fact, but Moscow
-neither endorsed nor rejected a European seat on 13 November, so the
-caption's first line was repainted to read "US: EUROPE TO JOIN",
-attributing the claim to the US envoys who announced it, in a
-matching condensed bold face. This version fixes the one point
-where the previous version was weakest: the departures board showed
-all twelve flights as DELAYED while the deck says "delayed or
-cancelled", so two rows (Denver and Los Angeles) were repainted to
-CANCELLED in a matching condensed face, with no visible seam.
-Earlier versions also fixed three points: the hero photo now shows the
-disruption itself — stranded passengers sitting on the terminal floor
-among their luggage, instead of a calm check-in queue; the Senate
-panel says "calls" rather than "summons" (the committee requested
-voluntary testimony, threatening subpoenas only if they decline);
-and the Microsoft 365 panel shows visible ERROR / SYSTEM FAILURE
-screens instead of a near-black control room. The hero sub-headline
-still fits on one line, nobody in the Europe panel looks at the
+altered. The generated departures board showed five DELAYED rows and
+a sixth row (AS189 to Seattle) detached below the board's frame,
+misaligned and with no status, while the deck says "delayed or
+cancelled", so the board was extended down to absorb that row as a
+proper sixth row — AS189 and Seattle repainted on the table's grid in
+a matching condensed bold face — with its status reading CANCELLED,
+leaving five DELAYED and one CANCELLED. The board is a single
+coherent table with a header row (FLIGHT CODE / DESTINATION CITY /
+STATUS) and all-US-domestic routes, and the Senate panel is seen from
+the side, in profile, rather than facing the viewer. Earlier versions
+fixed the same class of points on a previous base: the hero photo
+shows stranded passengers camped on the terminal floor among their
+luggage; the Senate panel says "calls" rather than "summons" (the
+committee requested voluntary testimony, threatening subpoenas only
+if they decline); the Europe panel's caption reads "US: EUROPE TO
+JOIN", attributing the claim to the US envoys who announced it,
+since Moscow had not confirmed the European seat; and the Microsoft
+365 panel shows visible ERROR / SYSTEM FAILURE screens. The hero
+sub-headline still fits on one line, nobody in the hero looks at the
 camera, and the footer is two lines in larger type.
 
 ## How it runs
@@ -72,4 +69,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 The output is a 1024x1024 JPEG (named `entry.png`, as the rules allow),
-410,818 bytes (under the 1 MiB limit), and byte-identical on every run.
+392,148 bytes (under the 1 MiB limit), and byte-identical on every run.

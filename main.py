@@ -12,13 +12,13 @@ of Finland, the Qatar-Turkey defence pact and the worldwide Microsoft
 365 outage, plus a footer strip with Iran's claimed strike on a US
 radar site in Bahrain, the FBI's $400m North Korea crypto-scam
 warning, Kane's England caps record and the record US deportation
-figure. The departures board in the hero photo was repainted with
-twelve distinct flights — ten delayed and two cancelled, matching the
-deck's "delayed or cancelled" — with destinations matched to the flights'
-real routes; the Europe caption's first line was repainted to read
-"US: EUROPE TO JOIN" so the claim is attributed to the US envoys
-rather than stated as settled; the hero deck fits on one line and
-the footer on two.
+figure. The departures board in the hero photo is a single table with
+a header row and six US-domestic flights — five delayed and one
+cancelled (AS189 to Seattle), matching the deck's "delayed or
+cancelled" — and the Senate panel is seen from the side, in profile;
+the Europe caption's first line reads "US: EUROPE TO JOIN" so the
+claim is attributed to the US envoys rather than stated as settled;
+the hero deck fits on one line and the footer on two.
 """
 
 import os
