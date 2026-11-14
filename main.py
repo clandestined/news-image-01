@@ -16,6 +16,10 @@ figure. The departures board in the hero photo is a single table with
 a header row and six US-domestic flights — five delayed and one
 cancelled (AS189 to Seattle), matching the deck's "delayed or
 cancelled" — and the Senate panel is seen from the side, in profile;
+the Qatar-Turkey panel shows two men visibly different from the pair
+in the Europe panel (older white-haired man with a white moustache
+and younger black-bearded man, between the Qatar and Turkish flags),
+so no two panels share the same faces for different stories;
 the Europe caption's first line reads "US: EUROPE TO JOIN" so the
 claim is attributed to the US envoys rather than stated as settled;
 the hero deck fits on one line and the footer on two.

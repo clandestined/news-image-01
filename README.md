@@ -36,28 +36,37 @@ A newspaper-front-page image summing up the world's news of Friday
 
 ## How it was made
 
-The front page was generated as one image, then one detail was
+The front page was generated as one image, then details were
 corrected for faithfulness by surgical repainting, with nothing else
-altered. The generated departures board showed five DELAYED rows and
-a sixth row (AS189 to Seattle) detached below the board's frame,
-misaligned and with no status, while the deck says "delayed or
-cancelled", so the board was extended down to absorb that row as a
-proper sixth row — AS189 and Seattle repainted on the table's grid in
-a matching condensed bold face — with its status reading CANCELLED,
-leaving five DELAYED and one CANCELLED. The board is a single
-coherent table with a header row (FLIGHT CODE / DESTINATION CITY /
-STATUS) and all-US-domestic routes, and the Senate panel is seen from
-the side, in profile, rather than facing the viewer. Earlier versions
-fixed the same class of points on a previous base: the hero photo
-shows stranded passengers camped on the terminal floor among their
-luggage; the Senate panel says "calls" rather than "summons" (the
-committee requested voluntary testimony, threatening subpoenas only
-if they decline); the Europe panel's caption reads "US: EUROPE TO
-JOIN", attributing the claim to the US envoys who announced it,
-since Moscow had not confirmed the European seat; and the Microsoft
-365 panel shows visible ERROR / SYSTEM FAILURE screens. The hero
-sub-headline still fits on one line, nobody in the hero looks at the
-camera, and the footer is two lines in larger type.
+altered. In v9 the Qatar-Turkey panel was replaced: in v8 the Europe
+panel and the Qatar-Turkey panel showed the same two men shaking
+hands (same faces, same suits, same pose) for two different stories,
+which a careful picture editor can spot at full size. The new panel
+shows two visibly different men in profile — an older white-haired
+man with a white moustache and a younger man with a short black
+beard — shaking hands between the Qatar flag and the Turkish flag,
+with no text and neither man looking at the camera, pasted into
+exactly the Qatar photo rect. In v8 the generated departures board
+showed five DELAYED rows and a sixth row (AS189 to Seattle) detached
+below the board's frame, misaligned and with no status, while the
+deck says "delayed or cancelled", so the board was extended down to
+absorb that row as a proper sixth row — AS189 and Seattle repainted
+on the table's grid in a matching condensed bold face — with its
+status reading CANCELLED, leaving five DELAYED and one CANCELLED.
+The board is a single coherent table with a header row (FLIGHT CODE
+/ DESTINATION CITY / STATUS) and all-US-domestic routes, and the
+Senate panel is seen from the side, in profile, rather than facing
+the viewer. Earlier versions fixed the same class of points on a
+previous base: the hero photo shows stranded passengers camped on
+the terminal floor among their luggage; the Senate panel says
+"calls" rather than "summons" (the committee requested voluntary
+testimony, threatening subpoenas only if they decline); the Europe
+panel's caption reads "US: EUROPE TO JOIN", attributing the claim
+to the US envoys who announced it, since Moscow had not confirmed
+the European seat; and the Microsoft 365 panel shows visible ERROR
+/ SYSTEM FAILURE screens. The hero sub-headline still fits on one
+line, nobody in the hero looks at the camera, and the footer is two
+lines in larger type.
 
 ## How it runs
 
@@ -69,4 +78,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 The output is a 1024x1024 JPEG (named `entry.png`, as the rules allow),
-392,148 bytes (under the 1 MiB limit), and byte-identical on every run.
+410,755 bytes (under the 1 MiB limit), and byte-identical on every run.
