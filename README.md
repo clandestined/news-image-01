@@ -15,10 +15,12 @@ A newspaper-front-page image summing up the world's news of Friday
   12 November) and Commerce Secretary Howard Lutnick to testify
   voluntarily in December over Nvidia chip exports to China, with
   subpoenas threatened if they decline.
-- **Europe to join Ukraine peace talks** — President Zelensky met US
-  envoys Witkoff and Kushner in Dublin; the envoys said European
-  partners would join the next round of talks, and a prisoner exchange,
-  the largest of the war, was agreed.
+- **US: Europe to join Ukraine peace talks** — US envoys Witkoff and
+  Kushner met President Zelensky in Dublin and said European partners
+  would join the next round of talks, and a prisoner exchange, the
+  largest of the war, was agreed. Moscow neither endorsed nor rejected
+  the European seat on 13 November, so the caption attributes the
+  claim to the US rather than stating it as settled.
 - **Drone hits Russian warship** — Ukrainian drones hit the Russian
   missile corvette Naro-Fominsk in the Gulf of Finland, the first such
   strike in the Baltic.
@@ -34,14 +36,19 @@ A newspaper-front-page image summing up the world's news of Friday
 
 ## How it was made
 
-The front page was generated as one image, then one detail was
-corrected for faithfulness: the generated departures board repeated
-the same few garbled rows, so the board was repainted with twelve
-distinct delayed flights in a matching gold mono face, with
-destinations corrected to the flights' real routes (BA177 to New
-York, EK215 to Los Angeles, SQ318 and QF9 to London). Nothing else
-was altered. This version also fixes the three points where the
-previous version was weakest: the hero photo now shows the
+The front page was generated as one image, then two details were
+corrected for faithfulness by surgical repainting, with nothing else
+altered. First, the generated departures board repeated the same few
+garbled rows, so the board was repainted with twelve distinct delayed
+flights in a matching gold mono face, with destinations corrected to
+the flights' real routes (BA177 to New York, EK215 to Los Angeles,
+SQ318 and QF9 to London). Second, the Europe panel's caption read
+"EUROPE TO JOIN UKRAINE PEACE TALKS" as settled fact, but Moscow
+neither endorsed nor rejected a European seat on 13 November, so the
+caption's first line was repainted to read "US: EUROPE TO JOIN",
+attributing the claim to the US envoys who announced it, in a
+matching condensed bold face. This version also fixes the three
+points where the previous version was weakest: the hero photo now shows the
 disruption itself — stranded passengers sitting on the terminal floor
 among their luggage, instead of a calm check-in queue; the Senate
 panel says "calls" rather than "summons" (the committee requested
@@ -61,4 +68,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 The output is a 1024x1024 JPEG (named `entry.png`, as the rules allow),
-411,400 bytes (under the 1 MiB limit), and byte-identical on every run.
+411,232 bytes (under the 1 MiB limit), and byte-identical on every run.
