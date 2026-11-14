@@ -3,7 +3,8 @@
 Deterministic, standard library only, no network. The image in this
 repository sums up the world news of Friday 13 November 2026: the FAA
 nationwide ground stop (hero story, more than 11,000 flights delayed
-or cancelled), the Senate summons of Huang and Lutnick, Europe joining
+or cancelled, shown as stranded passengers camped on the terminal
+floor), the Senate's call for Huang and Lutnick to testify, Europe joining
 the Ukraine peace talks, a drone hitting a Russian warship in the Gulf
 of Finland, the Qatar-Turkey defence pact and the worldwide Microsoft
 365 outage, plus a footer strip with Iran's claimed strike on a US
