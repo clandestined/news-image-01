@@ -13,8 +13,9 @@ of Finland, the Qatar-Turkey defence pact and the worldwide Microsoft
 radar site in Bahrain, the FBI's $400m North Korea crypto-scam
 warning, Kane's England caps record and the record US deportation
 figure. The departures board in the hero photo was repainted with
-twelve distinct delayed flights (destinations matched to the flights'
-real routes); the Europe caption's first line was repainted to read
+twelve distinct flights — ten delayed and two cancelled, matching the
+deck's "delayed or cancelled" — with destinations matched to the flights'
+real routes; the Europe caption's first line was repainted to read
 "US: EUROPE TO JOIN" so the claim is attributed to the US envoys
 rather than stated as settled; the hero deck fits on one line and
 the footer on two.
