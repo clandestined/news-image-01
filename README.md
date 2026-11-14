@@ -7,8 +7,9 @@ A newspaper-front-page image summing up the world's news of Friday
 
 - **Hero: U.S. flights grounded** — the FAA ordered a nationwide ground
   stop after a communications failure; flights were halted for about
-  four hours and nearly 7,000 flights were delayed or cancelled, the
-  longest nationwide stop since 9/11.
+  four hours and more than 11,000 flights were delayed or cancelled
+  (FlightAware via Reuters: nearly 10,000 delayed, over 1,000
+  cancelled), the second nationwide stop since 9/11.
 - **Senate summons Huang & Lutnick** — the US Senate Banking Committee
   summoned former Nvidia chief executive Jensen Huang (who resigned on
   12 November) and Commerce Secretary Howard Lutnick to testify in
@@ -32,11 +33,15 @@ A newspaper-front-page image summing up the world's news of Friday
 
 ## How it was made
 
-The front page was generated as one image, then a single caption was
-corrected for faithfulness: the generated caption read "EUROPE JOINS
-UKRAINE PEACE TALKS", but Moscow had not confirmed the European role,
-so the caption box was repainted with "EUROPE TO JOIN UKRAINE PEACE
-TALKS" in a matching condensed bold face. Nothing else was altered.
+The front page was generated as one image, then one detail was
+corrected for faithfulness: the generated departures board repeated
+the same six flight rows twice, so the board was repainted with
+twelve distinct delayed flights in a matching gold mono face.
+Nothing else was altered. The generation already carried the
+corrected hero figure (more than 11,000 flights delayed or
+cancelled, per FlightAware via Reuters), a populated Senate hearing
+room, and a sharp-cornered hero banner — the three points where the
+previous version was weakest.
 
 ## How it runs
 
@@ -48,4 +53,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
 The output is a 1024x1024 JPEG (named `entry.png`, as the rules allow),
-390,803 bytes (under the 1 MiB limit), and byte-identical on every run.
+400,163 bytes (under the 1 MiB limit), and byte-identical on every run.

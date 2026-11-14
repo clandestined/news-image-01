@@ -2,13 +2,14 @@
 
 Deterministic, standard library only, no network. The image in this
 repository sums up the world news of Friday 13 November 2026: the FAA
-nationwide ground stop (hero story), the Senate summons of Huang and
-Lutnick, Europe joining the Ukraine peace talks, a drone hitting a
-Russian warship in the Gulf of Finland, the Qatar-Turkey defence pact
-and the worldwide Microsoft 365 outage, plus a footer strip with
-Iran's claimed strike on a US radar site in Bahrain, the FBI's $400m
-North Korea crypto-scam warning, Kane's England caps record and the
-record US deportation figure.
+nationwide ground stop (hero story, more than 11,000 flights delayed
+or cancelled), the Senate summons of Huang and Lutnick, Europe joining
+the Ukraine peace talks, a drone hitting a Russian warship in the Gulf
+of Finland, the Qatar-Turkey defence pact and the worldwide Microsoft
+365 outage, plus a footer strip with Iran's claimed strike on a US
+radar site in Bahrain, the FBI's $400m North Korea crypto-scam
+warning, Kane's England caps record and the record US deportation
+figure.
 """
 
 import os
